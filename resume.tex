@@ -1,0 +1,111 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+% ___________________________________________________________________________
+% CONFIGURATION
+
+% Check awesome-cv.cls for all of the special functions.
+\documentclass[11pt, letterpaper]{awesome-cv}
+
+% Configure page margins
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Builtin:
+%   awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%   awesome-nephritis, awesome-concrete, awesome-darknight
+% Custom:
+%   \definecolor{awesome}{HTML}{CA63A8}
+\colorlet{awesome}{awesome-red}
+
+% Colors for text
+\definecolor{darktext}{HTML}{414141}
+\definecolor{text}{HTML}{333333}
+\definecolor{graytext}{HTML}{5D5D5D}
+\definecolor{lighttext}{HTML}{999999}
+
+% Set to false to disable section highlight
+\setbool{acvSectionColorHighlight}{true}
+
+% Set the social information separator to a textbar (|)
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+% ___________________________________________________________________________
+% MACROS
+
+% Custom commands for URLs without protocol prefixes
+\newcommand*{\httpurl}[1]{\href{http://#1}{\nolinkurl{#1}}}
+\newcommand*{\httpsurl}[1]{\href{https://#1}{\nolinkurl{#1}}}
+
+
+% ___________________________________________________________________________
+% PERSONAL INFORMATION
+
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[rectangle,edge,right]{./profile}
+
+\name{Chris}{Barrick}
+\position{Software Engineer}
+\address{Athens, GA}
+
+\mobile{(828) 342-2580}
+\email{cbarrick1@gmail.com}
+\github{cbarrick}
+\linkedin{csb1024}
+
+% Supported but unused:
+%\homepage{URL}
+%\gitlab{gitlab-id}
+%\stackoverflow{SO-id}{SO-name}
+%\twitter{@twit}
+%\skype{skype-id}
+%\reddit{reddit-id}
+%\extrainfo{extra informations}
+
+% \quote{``Write programs that do one thing and do it well. Write programs to work together."}
+
+
+% ___________________________________________________________________________
+% CONTENT
+
+\begin{document}
+
+% Print the header with above personal informations
+% The argument changes alignment (C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments (<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Chris Barrick~~~·~~~Résumé}
+  {\thepage}
+
+% Resume sections are independent files.
+%\input{resume/summary.tex}
+\input{resume/skills.tex}
+\input{resume/experience.tex}
+\input{resume/education.tex}
+\input{resume/organizations.tex}
+% \pagebreak
+% \input{resume/projects.tex}
+\input{resume/publications.tex}
+
+\end{document}
