@@ -1,5 +1,7 @@
-### TeX ###
-## Core latex/pdflatex auxiliary files:
+# TeX
+# -------------------------
+
+## Core latex/pdflatex auxiliary files
 *.aux
 *.lof
 *.log
@@ -8,17 +10,27 @@
 *.out
 *.toc
 
-## Intermediate documents:
+## Intermediate documents
 *.dvi
 *-converted-to.*
-<<<<<<< HEAD
 
-### Editor ###
+## Supplemental files
+*.synctex.gz
+
+
+# Editor files
+# -------------------------
+
 ## Vim & Emacs temp files:
 .*sw[op]
 *~
 
-### Mac OS X ###
-## Mac OS X metadata files:
-*.DS_Store
+## Atom latex plugin
+.latex/
 
+
+# OS junk files
+# -------------------------
+
+## macOS
+*.DS_Store
