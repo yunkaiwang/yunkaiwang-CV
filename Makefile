@@ -6,8 +6,8 @@ LATEX = xelatex
 RESUME_DIR = resume
 RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
 
-CV_DIR = cv
-CV_SRCS = $(shell find $(CV_DIR) -name '*.tex')
+# CV_DIR = cv
+# CV_SRCS = $(shell find $(CV_DIR) -name '*.tex')
 
 
 # Targets
