@@ -677,6 +677,10 @@
   \honordatestyle{#4} & \honorpositionstyle{#1}, \honortitlestyle{#2} & \honorlocationstyle{#3} \\
 }
 
+\newcommand*{\cvaward}[3]{%
+  \honordatestyle{#3} & \honortitlestyle{#1} & \honorlocationstyle{#2} \\
+}
+
 % Define an environment for cvskill
 \newenvironment{cvskills}{%
   \vspace{\acvSectionContentTopSkip}
