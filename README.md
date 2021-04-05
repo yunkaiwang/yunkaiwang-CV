@@ -5,7 +5,7 @@ Yunkai Wang
 
 I am an up-and-coming __software developer__ with a strong academic background in __algorithm__. I am currently persuing a master of computer science degree from Carleton University. I am expected to graduate in June 2021.
 
-You can view my full resume [here](https://github.com/yunkaiwang/yunkaiwang-CV/raw/master/resume.pdf).
+You can view my full resume [here](https://github.com/yunkaiwang/yunkaiwang-CV/raw/master/yunkaiwang_resume.pdf).
 
 
 ## About the Template
